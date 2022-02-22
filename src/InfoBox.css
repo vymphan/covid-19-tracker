@@ -1,0 +1,64 @@
+.infoBox {
+  width: 220px;
+  margin: 10px 10px;
+  position: relative !important;
+  font-family: 'Dosis', 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#infoBox__title {
+  text-transform: uppercase;
+  font-family: inherit;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5rem; 
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoBox--selected {
+  border-top: 10px solid black;
+}
+
+.infoBox--red {
+  border-color: rgb(255, 165, 0);
+}
+
+.infoBox--green {
+  border-color: rgb(0, 89, 255);
+}
+
+.infoBox--grey {
+  border-color: rgb(167, 167, 167);
+}
+
+.infoBox--redText {
+  color: rgb(255, 165, 0);
+}
+
+.infoBox--greenText {
+  color: rgb(0, 89, 255);
+}
+
+.infoBox__cases {
+  margin-top:5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#infoBox__total {
+  color: #6c757d;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.MuiCardContent-root {
+  padding: 16px !important;
+}
+
+.MuiCardContent-root.infoContent {
+  position: relative;
+}

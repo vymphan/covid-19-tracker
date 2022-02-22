@@ -1,0 +1,25 @@
+.infoBox-icon {
+  display: block;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.fa-info-circle {
+  width: 25px;
+  height: 25px;
+  line-height: 22px;
+  font-size: 22px;
+  color: rgb(133, 133, 133);
+}
+
+.infoGraph-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+i:hover {
+  transition: all 0.3s ease;
+  color: rgb(62, 62, 62);
+}

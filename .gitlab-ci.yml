@@ -1,0 +1,10 @@
+pages:
+  image: node:12.18.3
+  stage: deploy
+  script: ./build_all_checkpoints.sh
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+  - /^.*checkpoint.*$/
