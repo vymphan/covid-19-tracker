@@ -280,7 +280,7 @@ const App = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:covidtracker@example.com"
+              href="mailto:vy.m.phan@gmail.com"
             >
               Contact us
             </a>
